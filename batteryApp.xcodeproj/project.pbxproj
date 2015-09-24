@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F837B881BB38CE400E72ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F837B871BB38CE400E72ABE /* AppDelegate.swift */; };
+		8F837B8A1BB38CE400E72ABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F837B891BB38CE400E72ABE /* ViewController.swift */; };
+		8F837B8D1BB38CE400E72ABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F837B8B1BB38CE400E72ABE /* Main.storyboard */; };
+		8F837B8F1BB38CE400E72ABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F837B8E1BB38CE400E72ABE /* Assets.xcassets */; };
+		8F837B921BB38CE400E72ABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F837B901BB38CE400E72ABE /* LaunchScreen.storyboard */; };
+		8F837B9D1BB38CE500E72ABE /* batteryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F837B9C1BB38CE500E72ABE /* batteryAppTests.swift */; };
+		8F837BA81BB38CE500E72ABE /* batteryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F837BA71BB38CE500E72ABE /* batteryAppUITests.swift */; };
+		8F837BBC1BB393BE00E72ABE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BB51BB393BE00E72ABE /* Bolts.framework */; };
+		8F837BBD1BB393BE00E72ABE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BB61BB393BE00E72ABE /* Parse.framework */; };
+		8F837BBE1BB393BE00E72ABE /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BB71BB393BE00E72ABE /* ParseCrashReporting.framework */; };
+		8F837BBF1BB393BE00E72ABE /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BB81BB393BE00E72ABE /* ParseFacebookUtils.framework */; };
+		8F837BC01BB393BE00E72ABE /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BB91BB393BE00E72ABE /* ParseFacebookUtilsV4.framework */; };
+		8F837BC11BB393BE00E72ABE /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BBA1BB393BE00E72ABE /* ParseTwitterUtils.framework */; };
+		8F837BC21BB393BE00E72ABE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BBB1BB393BE00E72ABE /* ParseUI.framework */; };
+		8F837BC41BB393ED00E72ABE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BC31BB393ED00E72ABE /* AudioToolbox.framework */; };
+		8F837BC61BB393F800E72ABE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BC51BB393F800E72ABE /* CFNetwork.framework */; };
+		8F837BC81BB3941100E72ABE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BC71BB3941100E72ABE /* CoreGraphics.framework */; };
+		8F837BCA1BB3941B00E72ABE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BC91BB3941B00E72ABE /* CoreLocation.framework */; };
+		8F837BCC1BB3942400E72ABE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BCB1BB3942400E72ABE /* QuartzCore.framework */; };
+		8F837BCE1BB3942E00E72ABE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BCD1BB3942E00E72ABE /* Security.framework */; };
+		8F837BD01BB3943800E72ABE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BCF1BB3943800E72ABE /* StoreKit.framework */; };
+		8F837BD21BB3944200E72ABE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BD11BB3944200E72ABE /* SystemConfiguration.framework */; };
+		8F837BD41BB3945E00E72ABE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BD31BB3945E00E72ABE /* libz.tbd */; };
+		8F837BD61BB3946D00E72ABE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F837BD51BB3946D00E72ABE /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F837B991BB38CE500E72ABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F837B7C1BB38CE400E72ABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F837B831BB38CE400E72ABE;
+			remoteInfo = batteryApp;
+		};
+		8F837BA41BB38CE500E72ABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F837B7C1BB38CE400E72ABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F837B831BB38CE400E72ABE;
+			remoteInfo = batteryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F837B841BB38CE400E72ABE /* batteryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = batteryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F837B871BB38CE400E72ABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F837B891BB38CE400E72ABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F837B8C1BB38CE400E72ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F837B8E1BB38CE400E72ABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F837B911BB38CE400E72ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F837B931BB38CE400E72ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F837B981BB38CE500E72ABE /* batteryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = batteryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F837B9C1BB38CE500E72ABE /* batteryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = batteryAppTests.swift; sourceTree = "<group>"; };
+		8F837B9E1BB38CE500E72ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F837BA31BB38CE500E72ABE /* batteryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = batteryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F837BA71BB38CE500E72ABE /* batteryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = batteryAppUITests.swift; sourceTree = "<group>"; };
+		8F837BA91BB38CE500E72ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F837BB51BB393BE00E72ABE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		8F837BB61BB393BE00E72ABE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		8F837BB71BB393BE00E72ABE /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		8F837BB81BB393BE00E72ABE /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		8F837BB91BB393BE00E72ABE /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		8F837BBA1BB393BE00E72ABE /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		8F837BBB1BB393BE00E72ABE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		8F837BC31BB393ED00E72ABE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8F837BC51BB393F800E72ABE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8F837BC71BB3941100E72ABE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F837BC91BB3941B00E72ABE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8F837BCB1BB3942400E72ABE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8F837BCD1BB3942E00E72ABE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8F837BCF1BB3943800E72ABE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8F837BD11BB3944200E72ABE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8F837BD31BB3945E00E72ABE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8F837BD51BB3946D00E72ABE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F837B811BB38CE400E72ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F837BD61BB3946D00E72ABE /* libsqlite3.tbd in Frameworks */,
+				8F837BD41BB3945E00E72ABE /* libz.tbd in Frameworks */,
+				8F837BD21BB3944200E72ABE /* SystemConfiguration.framework in Frameworks */,
+				8F837BD01BB3943800E72ABE /* StoreKit.framework in Frameworks */,
+				8F837BCE1BB3942E00E72ABE /* Security.framework in Frameworks */,
+				8F837BCC1BB3942400E72ABE /* QuartzCore.framework in Frameworks */,
+				8F837BCA1BB3941B00E72ABE /* CoreLocation.framework in Frameworks */,
+				8F837BC81BB3941100E72ABE /* CoreGraphics.framework in Frameworks */,
+				8F837BC61BB393F800E72ABE /* CFNetwork.framework in Frameworks */,
+				8F837BC41BB393ED00E72ABE /* AudioToolbox.framework in Frameworks */,
+				8F837BBD1BB393BE00E72ABE /* Parse.framework in Frameworks */,
+				8F837BBE1BB393BE00E72ABE /* ParseCrashReporting.framework in Frameworks */,
+				8F837BC21BB393BE00E72ABE /* ParseUI.framework in Frameworks */,
+				8F837BBF1BB393BE00E72ABE /* ParseFacebookUtils.framework in Frameworks */,
+				8F837BBC1BB393BE00E72ABE /* Bolts.framework in Frameworks */,
+				8F837BC11BB393BE00E72ABE /* ParseTwitterUtils.framework in Frameworks */,
+				8F837BC01BB393BE00E72ABE /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F837B951BB38CE500E72ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F837BA01BB38CE500E72ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F837B7B1BB38CE400E72ABE = {
+			isa = PBXGroup;
+			children = (
+				8F837BD51BB3946D00E72ABE /* libsqlite3.tbd */,
+				8F837BD31BB3945E00E72ABE /* libz.tbd */,
+				8F837BD11BB3944200E72ABE /* SystemConfiguration.framework */,
+				8F837BCF1BB3943800E72ABE /* StoreKit.framework */,
+				8F837BCD1BB3942E00E72ABE /* Security.framework */,
+				8F837BCB1BB3942400E72ABE /* QuartzCore.framework */,
+				8F837BC91BB3941B00E72ABE /* CoreLocation.framework */,
+				8F837BC71BB3941100E72ABE /* CoreGraphics.framework */,
+				8F837BC51BB393F800E72ABE /* CFNetwork.framework */,
+				8F837BC31BB393ED00E72ABE /* AudioToolbox.framework */,
+				8F837B861BB38CE400E72ABE /* batteryApp */,
+				8F837B9B1BB38CE500E72ABE /* batteryAppTests */,
+				8F837BA61BB38CE500E72ABE /* batteryAppUITests */,
+				8F837B851BB38CE400E72ABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F837B851BB38CE400E72ABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F837B841BB38CE400E72ABE /* batteryApp.app */,
+				8F837B981BB38CE500E72ABE /* batteryAppTests.xctest */,
+				8F837BA31BB38CE500E72ABE /* batteryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F837B861BB38CE400E72ABE /* batteryApp */ = {
+			isa = PBXGroup;
+			children = (
+				8F837B871BB38CE400E72ABE /* AppDelegate.swift */,
+				8F837B891BB38CE400E72ABE /* ViewController.swift */,
+				8F837B8B1BB38CE400E72ABE /* Main.storyboard */,
+				8F837B8E1BB38CE400E72ABE /* Assets.xcassets */,
+				8F837B901BB38CE400E72ABE /* LaunchScreen.storyboard */,
+				8F837B931BB38CE400E72ABE /* Info.plist */,
+				8F837BB51BB393BE00E72ABE /* Bolts.framework */,
+				8F837BB61BB393BE00E72ABE /* Parse.framework */,
+				8F837BB71BB393BE00E72ABE /* ParseCrashReporting.framework */,
+				8F837BB81BB393BE00E72ABE /* ParseFacebookUtils.framework */,
+				8F837BB91BB393BE00E72ABE /* ParseFacebookUtilsV4.framework */,
+				8F837BBA1BB393BE00E72ABE /* ParseTwitterUtils.framework */,
+				8F837BBB1BB393BE00E72ABE /* ParseUI.framework */,
+			);
+			path = batteryApp;
+			sourceTree = "<group>";
+		};
+		8F837B9B1BB38CE500E72ABE /* batteryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F837B9C1BB38CE500E72ABE /* batteryAppTests.swift */,
+				8F837B9E1BB38CE500E72ABE /* Info.plist */,
+			);
+			path = batteryAppTests;
+			sourceTree = "<group>";
+		};
+		8F837BA61BB38CE500E72ABE /* batteryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F837BA71BB38CE500E72ABE /* batteryAppUITests.swift */,
+				8F837BA91BB38CE500E72ABE /* Info.plist */,
+			);
+			path = batteryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F837B831BB38CE400E72ABE /* batteryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F837BAC1BB38CE500E72ABE /* Build configuration list for PBXNativeTarget "batteryApp" */;
+			buildPhases = (
+				8F837B801BB38CE400E72ABE /* Sources */,
+				8F837B811BB38CE400E72ABE /* Frameworks */,
+				8F837B821BB38CE400E72ABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = batteryApp;
+			productName = batteryApp;
+			productReference = 8F837B841BB38CE400E72ABE /* batteryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F837B971BB38CE500E72ABE /* batteryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F837BAF1BB38CE500E72ABE /* Build configuration list for PBXNativeTarget "batteryAppTests" */;
+			buildPhases = (
+				8F837B941BB38CE500E72ABE /* Sources */,
+				8F837B951BB38CE500E72ABE /* Frameworks */,
+				8F837B961BB38CE500E72ABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F837B9A1BB38CE500E72ABE /* PBXTargetDependency */,
+			);
+			name = batteryAppTests;
+			productName = batteryAppTests;
+			productReference = 8F837B981BB38CE500E72ABE /* batteryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F837BA21BB38CE500E72ABE /* batteryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F837BB21BB38CE500E72ABE /* Build configuration list for PBXNativeTarget "batteryAppUITests" */;
+			buildPhases = (
+				8F837B9F1BB38CE500E72ABE /* Sources */,
+				8F837BA01BB38CE500E72ABE /* Frameworks */,
+				8F837BA11BB38CE500E72ABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F837BA51BB38CE500E72ABE /* PBXTargetDependency */,
+			);
+			name = batteryAppUITests;
+			productName = batteryAppUITests;
+			productReference = 8F837BA31BB38CE500E72ABE /* batteryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F837B7C1BB38CE400E72ABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "冨平準喜";
+				TargetAttributes = {
+					8F837B831BB38CE400E72ABE = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = AZ2KD53H2M;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					8F837B971BB38CE500E72ABE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8F837B831BB38CE400E72ABE;
+					};
+					8F837BA21BB38CE500E72ABE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8F837B831BB38CE400E72ABE;
+					};
+				};
+			};
+			buildConfigurationList = 8F837B7F1BB38CE400E72ABE /* Build configuration list for PBXProject "batteryApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F837B7B1BB38CE400E72ABE;
+			productRefGroup = 8F837B851BB38CE400E72ABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F837B831BB38CE400E72ABE /* batteryApp */,
+				8F837B971BB38CE500E72ABE /* batteryAppTests */,
+				8F837BA21BB38CE500E72ABE /* batteryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F837B821BB38CE400E72ABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F837B921BB38CE400E72ABE /* LaunchScreen.storyboard in Resources */,
+				8F837B8F1BB38CE400E72ABE /* Assets.xcassets in Resources */,
+				8F837B8D1BB38CE400E72ABE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F837B961BB38CE500E72ABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F837BA11BB38CE500E72ABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F837B801BB38CE400E72ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F837B8A1BB38CE400E72ABE /* ViewController.swift in Sources */,
+				8F837B881BB38CE400E72ABE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F837B941BB38CE500E72ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F837B9D1BB38CE500E72ABE /* batteryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F837B9F1BB38CE500E72ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F837BA81BB38CE500E72ABE /* batteryAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F837B9A1BB38CE500E72ABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F837B831BB38CE400E72ABE /* batteryApp */;
+			targetProxy = 8F837B991BB38CE500E72ABE /* PBXContainerItemProxy */;
+		};
+		8F837BA51BB38CE500E72ABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F837B831BB38CE400E72ABE /* batteryApp */;
+			targetProxy = 8F837BA41BB38CE500E72ABE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F837B8B1BB38CE400E72ABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F837B8C1BB38CE400E72ABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F837B901BB38CE400E72ABE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F837B911BB38CE400E72ABE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F837BAA1BB38CE500E72ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F837BAB1BB38CE500E72ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F837BAD1BB38CE500E72ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/batteryApp",
+				);
+				INFOPLIST_FILE = batteryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toshiki.batteryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8F837BAE1BB38CE500E72ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/batteryApp",
+				);
+				INFOPLIST_FILE = batteryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toshiki.batteryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		8F837BB01BB38CE500E72ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = batteryAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toshiki.batteryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/batteryApp.app/batteryApp";
+			};
+			name = Debug;
+		};
+		8F837BB11BB38CE500E72ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = batteryAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toshiki.batteryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/batteryApp.app/batteryApp";
+			};
+			name = Release;
+		};
+		8F837BB31BB38CE500E72ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = batteryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toshiki.batteryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = batteryApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8F837BB41BB38CE500E72ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = batteryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toshiki.batteryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = batteryApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F837B7F1BB38CE400E72ABE /* Build configuration list for PBXProject "batteryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F837BAA1BB38CE500E72ABE /* Debug */,
+				8F837BAB1BB38CE500E72ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F837BAC1BB38CE500E72ABE /* Build configuration list for PBXNativeTarget "batteryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F837BAD1BB38CE500E72ABE /* Debug */,
+				8F837BAE1BB38CE500E72ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F837BAF1BB38CE500E72ABE /* Build configuration list for PBXNativeTarget "batteryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F837BB01BB38CE500E72ABE /* Debug */,
+				8F837BB11BB38CE500E72ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F837BB21BB38CE500E72ABE /* Build configuration list for PBXNativeTarget "batteryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F837BB31BB38CE500E72ABE /* Debug */,
+				8F837BB41BB38CE500E72ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F837B7C1BB38CE400E72ABE /* Project object */;
+}
